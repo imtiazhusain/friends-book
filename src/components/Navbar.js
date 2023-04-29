@@ -83,7 +83,7 @@ const Navbar = () => {
         <UserBox>
           <Avatar
             sx={{ width: "30px", height: "30px" }}
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
+            src={myImage}
             onClick={(event) => setOpen(true)}
           />
           <Typography variant="span" color="white">
@@ -96,7 +96,7 @@ const Navbar = () => {
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
         open={open}
-        onClose={event=>setOpen(false)}
+        onClose={(event) => setOpen(false)}
         anchorOrigin={{
           vertical: "top",
           horizontal: "right",
