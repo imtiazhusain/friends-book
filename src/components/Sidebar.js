@@ -1,4 +1,4 @@
-import {  AccountBox, Description, Groups, Home, ModeNight, Pages, Person, Settings, Storefront } from "@mui/icons-material";
+import {  AccountBox, Description, Groups, Home, ModeNight, Person, Settings, Storefront } from "@mui/icons-material";
 
 import {
   Box,
@@ -89,7 +89,7 @@ const Sidebar = (props) => {
             <ListItemIcon>
               <ModeNight />
             </ListItemIcon>
-            <Switch onChange={event=>props.setMode(props.mode == "light" ? "dark" :"light")}/>
+            <Switch onChange={event=>props.setMode(props.mode === "light" ? "dark" :"light")}/>
           </ListItemButton>
         </ListItem>
       </List>

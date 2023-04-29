@@ -49,19 +49,31 @@ const Rightbar = () => {
 
         <ImageList cols={2} sx={{ width: 200 }} gap={3} mb={0.5}>
           <ImageListItem>
-            <img src="https://material-ui.com/static/images/image-list/burgers.jpg" />
+            <img
+              alt="image"
+              src="https://material-ui.com/static/images/image-list/burgers.jpg"
+            />
           </ImageListItem>
 
           <ImageListItem>
-            <img src="https://material-ui.com/static/images/image-list/breakfast.jpg" />
+            <img
+              alt="image"
+              src="https://material-ui.com/static/images/image-list/breakfast.jpg"
+            />
           </ImageListItem>
 
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1518756131217-31eb79b20e8f" />
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1518756131217-31eb79b20e8f"
+            />
           </ImageListItem>
 
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1597645587822-e99fa5d45d25" />
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1597645587822-e99fa5d45d25"
+            />
           </ImageListItem>
         </ImageList>
 
